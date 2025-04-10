@@ -1,0 +1,1892 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+}
+
+.divMaxWidth {
+    max-width: 650px;
+}
+
+/* index page */
+.mainPicture {
+    background-color:white;
+    /* background-image: url(pexels-photo-54123.jpg); */
+    /* background-image: url(golf1.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 650px;
+}
+
+/* 2/1/2024 */
+/* https: //www.pexels.com/photo/golf-court-under-blue-sky-14745766/ */
+
+.mainLogo {
+    background-image: url(logo.png);
+    /* background-image: url(logo3-Transparent.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 175px;
+    height: 42px;
+    margin: 20px 0px 10px 10px;
+    border-radius: 2px;
+}
+
+.mainLogoFooter {
+        background-image: url(logo.png);
+        /* background-image: url(logo3-Transparent.png); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 48px;
+        margin: auto auto;
+        border-radius: 2px;
+}
+
+.title1 {
+    text-align: center;
+    padding: 7%;
+    background-color: #fbfafa;
+}
+
+.title {
+    text-align: center;
+    padding: 7%;
+}
+
+.mainTopText {
+    padding: 15% 1%;
+    color: white;
+    opacity: 1;
+
+}
+
+
+
+main {
+    padding: 16px;
+    text-align: center;
+}
+
+.WatchlistTitle {
+    padding: 0 15px;
+}
+
+.divsignuplogin {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    justify-content: left;
+}
+
+.IndexScorecardsubmitAddBtn {
+    width: 90%;
+    height: auto;
+    padding: 10px 20px;
+    margin: 5px 5px ;
+    background: #2274A5;
+    border: none;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 2px 6px #000000;
+    border-radius: 20px;
+}
+
+.payHereButton {
+        display: block;
+        width: 90%;
+        height: auto;
+        padding: 10px 20px;
+        margin: 5px 5px;
+        background: #78c1f3;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+        font-style: italic;
+        text-shadow: white 1px 0 10px;
+        box-shadow: 2px 2px 6px #000000;
+        border-radius: 20px;
+}
+
+.benefitsSubscribers {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    text-shadow: rgb(0, 0, 0) 1px 0 30px;
+}
+
+.IndexScorecardsubmitAddBtnLogo {
+        width: 50%;
+        max-width: 270px;
+        height: 40px;
+        padding: 0px 20px;
+        margin: 10px 0% 5px 0%;
+        background: #78c1f3;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+            color: white;
+            font-style: italic;
+            text-shadow: black 1px 0 10px;
+            box-shadow: 2px 2px 6px #000000;
+            border-radius: 20px;
+}
+
+.IndexScorecardsubmitAddBtn1 {
+    width: 210px;
+    height: auto;
+    padding: 10px 20px;
+    margin: 8px 5px 5px 5px;
+    background: #33acf3;
+    border: none;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+.IndexScorecardsubmitAddBtnWelcome {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    margin: 8px 5px 5px 5px;
+    background: #2274A5;
+    border: none;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+#Counter {
+    display: none;
+}
+
+.counterButtons{
+color: white;
+text-align: left;
+}
+
+
+.bothScorecardsWrapper {
+    /* box-shadow: 1px 1px 20px #000000; */
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    height: 730px;
+    background-color: #1d6b93;
+
+}
+
+#buttonRangeFinderDelay {
+    display: none;
+}
+
+
+.IndexScorecardsubmitAddBtn:hover,
+.IndexScorecardsubmitAddBtn1:hover,
+.IndexScorecardsubmitAddBtnWelcome:hover {
+    background-color: gray;
+    color: white;
+}
+
+.submitAddBtnStart {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    padding: 10px 20px;
+    margin: 8px 0px 5px 0px;
+    background: #7CA982;
+    border: none;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.submitAddBtnAddHole {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    padding: 10px 20px;
+    margin: 8px 0px 5px 0px;
+    background: #a3c2a7;
+    border: none;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 2px 6px gray;
+}
+
+
+
+.in-scorecard {
+    width: 100%;
+    display: flex;
+}
+
+/* top nav */
+/* https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+.closebtn:hover {
+    color: white;
+}
+
+/* Top Nav */
+.topnav {
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    box-shadow: 1px 1px 3px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topnav a {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    color: white;
+}
+
+.topnav a:hover {
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    background-color: gray;
+    color: white;
+}
+
+.aTagTopNavDivLogoSubscribe {
+        font-family: 'Franklin Gothic large', 'Arial bold', Arial, sans-serif;
+        font-weight: bold;
+        padding: 15px 5px;
+        font-size: 5px;
+        /* background-color: #A5CCD1; */
+        background-color: #242627;
+        box-shadow: 0px 0px 19px 1px;
+}
+
+.threeLines {
+    padding: 5px 16px;
+    font-size: 30px;
+}
+
+.homeBtn {
+    font-size: 12px;
+}
+
+/* side nav */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 90px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.navLeaderBoardClosingTag {
+    padding: 8px 90px 8px 32px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 50px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 10px 20px 10px 10px;
+}
+
+.closeXButton { 
+    margin: 2% 0% 0% 88%;
+    display: block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 45%, white 45%, white 55%, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 45%, white 45%, white 55%, transparent 55%, transparent 100%);
+    background-color: grey;
+}
+
+.holeNumber {
+    margin: 10px 0px;
+}
+
+.subscriptionPopUpWindow {
+    margin: 5px 0px;   
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.paymentOptions {
+    background-image: url(paymentOptions.png);
+    background-size: cover;
+        background-repeat: no-repeat;
+        width: 162px;
+        height: 18px;
+        margin: 14px auto;
+        border-radius: 2px;
+}
+
+.termsPaymentPopup {
+    display: block;
+    margin: 10px 1%;
+    font-size: 16px;
+}
+
+#EnterScorecardData {
+    display: none;
+    margin: 10px 1%;
+    font-size: 16px;
+}
+
+#EnterScorecardDataSubscriber {
+    display: none;
+    margin: 10px 1%;
+    font-size: 16px;
+}
+
+a {
+    float: left;
+    color: black;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 20px;
+    font-style:italic;
+}
+
+a:hover {
+    color: black;
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sideNavH2 {
+    padding-left: 0;
+}
+
+input[type=text],
+input[type=password] {
+    /* width: 30%; */
+    padding: 5px 1px;
+    margin: 5px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+}
+
+.loginsignupInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.mainBenefitSlogan {
+    display: inline-block;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.mainTopDiv {
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: url(AlignMateEntryMainImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+    justify-content: center;
+  
+    }
+
+
+.addCourseMap{
+    /* box-shadow: 1px 1px 20px #000000; */
+    border-radius: 10px;
+    margin: 40px 40px;
+    background-color: #93B874;
+    color: black;
+    height:auto;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    font-weight: 100;
+    /* font-style: italic; */
+    /* text-shadow: black 1px 0 10px; */
+    text-align: center;
+}
+
+.addCourseMap2 {
+        /* height: 100px; */
+        background-color: #78c1f3;
+        padding: 40px 5px 40px 5px;
+        margin: 0px 0px;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+        text-shadow: white 1px 0 10px;
+        text-align: center;
+        background-size: cover;
+            background-repeat: no-repeat;
+            /* width: 100%; */
+            height: 25px;
+            padding-top: 90px;
+            padding-bottom: 90px;
+            border-radius: 2px;
+}
+
+.digitalScorecardTop{
+    font-family: arial;
+    color: white;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    transform: scale(1,1.3);
+    text-align: left;
+    text-shadow: rgb(0, 0, 0) 1px 0px 30px;
+}
+
+.alignMateTop {
+    font-family: arial;
+    color: white;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    transform: scale(1, 1.3);
+    text-align: left;
+    text-shadow: rgb(0, 0, 0) 1px 0px 30px;
+}
+
+.digitalScorecardFront {
+    font-family: arial;
+    color: white;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 15px; 
+    margin-bottom: 0px;
+    padding-top: 0px;
+    height: auto;
+}
+
+.digitalScorecardFront9 {
+    border-radius: 10px;
+    background-color: #1d6b93;
+    color: white;
+    margin-left: 0px;
+    margin-right:0px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.digitalScorecardBack9 {
+    background-color: #1d6b93;
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 600;
+}
+
+.scanQRBox {
+    padding: 50px;
+    /* background-image: url(SkyImage.png); */
+    /* background-image: url(fairwayGreen.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    color: black;
+    /* font-size: 18px; */
+    /* font-weight: 800; */
+    /* font-style: italic; */
+    text-shadow: white 1px 0 10px;
+    text-align: center;
+}
+
+.sideNavPadding {
+    padding: 0 15px;
+}
+
+/*w3schools login buttons https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form */
+
+.scoresbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.scoresbutton:hover {
+    opacity: 0.8;
+}
+
+.closebtn:hover {
+    color: white;
+}
+
+.tradingViewWidget {
+    margin: 10px;
+}
+
+.widgetFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+/* scorecard page */
+
+.scorecardimage {
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 0px;
+    width: 100%;
+}
+
+
+.tempOrg {
+    padding-left: 100px;
+
+}
+
+.ScorecardTitle {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flexScorecardTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2274A5;
+    color: white;
+    /* padding-left: 10px; */
+}
+
+.btnspacing {
+    padding: 0 10px;
+    margin-top: 22px;
+    font-size: 12px;
+}
+
+.leftScorecardBar {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.contain-in-scorecards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 99%;
+}
+
+.in-scorecard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.new-Score-container {
+    width: 100%;
+    justify-content: left;
+}
+
+.new-scorecard-container {
+    /* display: flex; */
+    flex-direction: row;
+    padding: 4%;
+    margin: 4%;
+    width: 70%;
+    text-align: center;
+}
+
+.submitAddBtn .submitAddBtn2 {
+    width: 98%;
+    height: 40px;
+    padding: 0px 0px;
+    margin: 5px 5px 5px 5px;
+    background: #7CA982;
+    border: none;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.submitAddBtn {
+    width: 98%;
+    height: 40px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background: white;
+    border: none;
+    font-size: 1em;
+    color: black;
+    box-shadow: 2px 2px 6px black;
+    /* border-radius: 10px; */
+}
+
+.submitEditBtn {
+    width: 159px;
+    height: 40px;
+    padding: 0px 0px;
+    margin: 5px 5px 5px 0px;
+    background: #7CA982;
+    border: none;
+    font-size: 1em;
+    color: white;
+    /* border-radius: 10px; */
+}
+
+.submitEditBtn2 {
+    width: 100%;
+    height: 40px;
+    padding: 0px 0px;
+    margin: 5px 5px 5px 0px;
+    background: #7CA982;
+    border: none;
+    font-size: 1em;
+    color: white;
+    /* border-radius: 10px; */
+}
+
+
+.ScorecardsubmitAddBtn {
+    width: 260px;
+    height: 38px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background: #2274A5;
+    border: none;
+    font-size: 1em;
+    color: white;
+    box-shadow: 2px 2px 6px #000000;
+    /* border-radius: 10px; */
+}
+
+/* table styling on scorecard page */
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 3px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.containerRemoveEditScore {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.removeEditScore {
+    text-align: left;
+    font-size: 10px;
+    padding: 0 0 10px 20px;
+}
+
+input.addaScore {
+    padding: 5px 5px 5px 5px;
+    /* margin-right: 5px;  */
+    height: 40px;
+    width: 32%;
+}
+
+td {
+    width: 25%;
+    padding: 8px;
+    height: 60px;
+}
+
+.insideTd {
+    display: flex;
+    flex-direction: row;
+}
+
+.tdleftHole {
+    /* width: 50%; */
+    padding: 30px 10% 20px 10%;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.tdleft {
+    width: 20%;
+    padding: 30px 5% 20px 5%;
+    text-align: center;
+    vertical-align: center;
+    font-size: 20px;
+}
+
+.tdright {
+    width: 60%;
+    /* padding-right: 10px; */
+    text-align: center;
+    vertical-align: center;
+}
+
+.tdleftRemoveEdit {
+    width: 90%;
+
+}
+
+.btnTdinc {
+    background-color: #84BCDA;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 110%;
+    padding: 5px 0 10px 0;
+}
+
+.btnTddec {
+    background-color: #2274A5;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 110%;
+    padding: 5px 0 10px 0;
+    margin: 10px 0 0px 0;
+}
+
+.addAGolferInput {
+    width: 260px;
+
+}
+
+.addAgolferForm {
+    width: 100%;
+    display: inline-block;
+}
+
+.flexforminputsAddScore {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.addScoreDiv {
+    width: 100%;
+}
+
+.addScoreForm {
+    width: 100%;
+    /* width: 500px; */
+
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+.invisibleStartGame {
+    display: none;
+}
+
+.displayNone {
+    display: none;
+}
+
+.centerAtag {
+    text-align: center;
+    width: 80%;
+    margin: 8px 10%;
+    display: inline-block;
+    padding: 10px 0;
+    /* border: 1px solid grey; */
+    box-shadow: 2px 2px 6px #848484;
+}
+
+.centerAtag:hover {
+    background-color: #d4d4d4
+}
+
+
+.containList {
+    text-align: center;
+    display: block;
+}
+
+.topScorecardListTitle {
+    padding: 14px 16px;
+    text-align: center;
+    margin-left: 39px;
+}
+
+.listTopH2 {
+    padding: 0 14px;
+    margin: 10px 10%;
+    text-align: center;
+}
+
+/* #scoreToHide {
+  display: none;
+} */
+
+.smallLogOut {
+    margin: .3em 0;
+    color: black;
+
+}
+
+.mainPicturePage2 {
+    background-image: url(edewaa-foster-21158.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.circleButton:hover {
+    color: white;
+}
+
+
+.buttonForCheckbox {
+    /* text-align: right; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.buttonForCheckbox1 {
+    /* text-align: right; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+/* tutorial on how to style checkboxes */
+/* https://paulund.co.uk/style-checkboxes-with-css */
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+
+
+label:before {
+    content: "+";
+    /* position: absolute; */
+}
+
+/* when closed this appears */
+.circleButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    vertical-align: text-top;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    /* content: "+"; */
+    padding: 0.5em;
+    margin-right: 3px;
+    background: radial-gradient(ellipse at center, #ccc 45%, transparent 50%);
+
+}
+
+/* when open this appears */
+.circleButton label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    vertical-align: text-top;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "-";
+    padding: 0.5em;
+    margin-right: 3px;
+    background: radial-gradient(ellipse at center, #ccc 45%, transparent 50%);
+
+}
+
+.circleButton input[type=checkbox]:checked+label {
+    left: 0px;
+    color: white;
+    font-size: 15px;
+    background: radial-gradient(ellipse at center, #2274A5 45%, transparent 50%);
+    /* content: "-"; */
+}
+
+/* example */
+
+
+
+.displaySquares {
+    display: fixed;
+}
+
+#displaySquaresPopUp {
+    display: block;
+}
+
+.displaySquaresPar {
+    display: none;
+}
+
+
+
+.updateGolferToHide2 {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 30px;
+    /* background-color: #e7e7e7; */
+}
+
+.flexforminputsGolfers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+
+}
+
+.aTagNoPadding {
+    padding: 0 0;
+}
+
+
+.buttonRemoveEdit {
+    width: 10%;
+    height: 38px;
+    padding: 0px 0px;
+    margin: 0px 0px 10px 0px;
+    /* background: #2274A5; */
+    border: none;
+    font-size: 1em;
+    color: white;
+    /* border-radius: 10px; */
+}
+
+
+.buttonRemoveEdit2 {
+    width: 10%;
+    height: 38px;
+    padding: 0px 0px;
+    margin: 0px 0px 10px 0px;
+    /* background: #84BCDA; */
+    border: none;
+    font-size: 1em;
+    color: white;
+    /* border-radius: 10px; */
+}
+
+
+
+.centerAtag1 {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 0 0;
+}
+
+.topnav1{
+    display: block;
+    position: fixed;
+   
+}
+
+.newsletterSignup {
+    display: block;
+    margin: 20px;
+    padding: 5px;
+    font: 14px Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+        box-shadow: 0px 0px 19px 1px;
+}
+
+.clear.foot {
+    margin-top: 16px;
+}
+
+.insideNewsletterBox {
+    margin: 10px;
+}
+
+.optionsSection {
+        height: auto;
+        width: 90%;
+        padding: 5px 5px 5px 5px;
+        margin: auto 5%;
+        color: black;
+        /* font-size: 12px; */
+        /* font-weight: 600; */
+        /* font-style: italic; */
+        /* text-shadow: white 1px 0 10px; */
+}
+
+
+.aTagTopNavDivLogo {
+    position: fixed;
+    font-family: 'Arial';
+    color: white;
+    background-color: white;
+    /* background-color: #78c1f3; */
+    border-color: black;
+    border-top-style: solid;
+    border-top-width: medium;
+    padding: 0px;
+    box-shadow: 0px 0px 7px black;
+    max-width: 650px;
+}
+
+#mySidenavMenu {
+    z-index: 5;
+}
+
+#mySidenavLogin {
+    z-index: 5;
+
+}
+
+#mySidenavSignup {
+    z-index: 5;
+
+}
+
+/*side nav*/
+
+span {
+    color: white;
+    background-color: #2D2D35;
+    float: right;
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.name {
+    float: left;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #2D2D35;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* cookies nav */
+
+.topOfPopUp {
+    display: inline;
+    font-size: 12px;
+}
+
+/* .bottomOfPopUp { */
+    /* display: flex; */
+/* } */
+
+.bottomCookiePolicyPopup {
+    /* display: flex; */
+    align-items: center;
+    margin: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 0px 25px 20px 25px;
+}
+
+#mySidenavCookies {
+    display: none;
+    height: auto;
+    display: block;
+    width: 100%;
+    position: top;
+}
+
+#mySidenavCookiesPar {
+        height: auto;
+        display: none;
+        display: block;
+        width: 94%;
+        position: top;
+    }
+
+
+
+.sidenavCookies {
+    height: auto;
+    width: 97%;
+    max-width: 650px;
+    position: fixed;
+    z-index: 4;
+    bottom: 0;
+    /* right: 0; */
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    align-items: center;
+    margin: 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 1px;
+}
+
+
+
+.logoSubscribePopUp {
+        display: block;
+        text-align: left;
+        height: 70%;
+        width: 85%;
+        position: fixed;
+        z-index: 4;
+        bottom: 0;
+        /* right: 0; */
+        background-color: #DFDFDF;
+        overflow-x: hidden;
+        transition: 0.5s;
+        align-items: center;
+        margin: 3%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 19px 1px;
+}
+
+#logoSubscribeButton1 {
+    display: none;
+    height: 88%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 10%;
+    bottom: 10%;
+    /* right: 0; */
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    align-items: left;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 1px;
+    max-width: 650px;
+}
+
+#logoSubscribeButton1FreeTrial {
+    display: none;
+    height: 88%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 10%;
+    bottom: 10%;
+    /* right: 0; */
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    align-items: left;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 1px;
+    max-width: 650px;
+}
+
+#logoSubscribeButton1FreeTrialDisc {
+    display: none;
+    height: 88%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 10%;
+    bottom: 10%;
+    /* right: 0; */
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    align-items: left;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 1px;
+    max-width: 650px;
+}
+
+#theSponsorSignUp {
+    display: none;
+    height: 88%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 10%;
+    bottom: 10%;
+    /* right: 0; */
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    align-items: left;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 1px;
+    max-width: 650px;
+}
+
+#PreviewExpired {
+    display: none;
+    height: 88%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 10%;
+    bottom: 10%;
+    /* right: 0; */
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    align-items: left;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 1px;
+    max-width: 650px;
+}
+
+.footer {
+    display: block;
+    /* height:220px; */
+    width: 100%;
+    /* background-color: #78c1f3; */
+    background-color: white;
+    /* box-shadow: 0px 0px #78c1f3; */
+    text-align: center; 
+}
+
+.newfooter {
+
+    padding: 30px ;
+display: block;
+width: 100%;
+background-color: white;
+height: auto;
+
+}
+
+.footerDiv {
+    padding: 7%;
+    color:black;
+}
+
+.footerdivparent {
+    padding: 50px 20px;
+    margin: 0 10%;
+}
+
+.centerweather {
+    padding: 2%;
+    margin: 5%;
+    width: 200px;
+    z-index: 0;
+}
+
+.addAgolfer {
+    color: white;
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.addAgolferWelcome {
+    color: white;
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0;
+}
+
+.textshadow {
+    /* text-shadow: 2px 2px 2px #000000; */
+    margin-left: 5px;
+}
+
+.containLeaderBoard {
+    display: block;
+    width: 100%;
+}
+
+.flexforminputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.ScorecardsubmitAddBtn2 {
+    width: 260px;
+    height: 20px;
+    padding: 10px 0 8px 0;
+    margin: 8px 0px 0px 0px;
+    background: #2274A5;
+    border: none;
+    font-size: 1em;
+    color: white;
+
+    /* border-radius: 10px; */
+}
+
+.centerTd {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.smallpic {
+    display: block;
+    min-width: auto;
+    width: 100%;
+    height: 100px;
+}
+
+.smallpicAtag {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomBar {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.rowMainIndex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.box1 {
+    background-color: green;
+    background-image: url(pexels-photo-114972.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+
+.box2 {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+}
+
+.box3 {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+}
+
+.box4 {
+    background-image: url(sandbunker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+
+.box5 {
+    background-image: url(pexels-photo-274133.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+
+.box6 {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    /* padding: 3% */
+}
+
+.tourbrassie-widget-list {
+    padding: 90px 50px 20px
+}
+
+.tourbrassie-widget-footer-right,
+.tourbrassie-widget-footer-1 {
+    display: none;
+}
+
+.box7 {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+}
+
+.box8 {
+    background-image: url(magnolia-golf-course-mobile-alabama-golfing-163886.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+
+.box9 {
+    background-image: url(tyson-dudley-122441.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+}
+
+.box10 {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+}
+
+.qrcodewrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.QRcode {
+    display: block;
+    background-image: url(QR-code-to-Golfer-Scorecards2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 170px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+.QRcode1 {
+    display: block;
+    background-image: url(QRcodeExampleCourse.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 210px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.QRcodeSmall {
+    background-image: url(QR-code-to-Golfer-Scorecards2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 62px;
+        height: 60px;
+        margin: 20px 20px;
+        border-radius: 8px;
+}
+
+.headerDescriptionShareQR {
+    margin-top:0px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.headerDescriptionShareQRleft {
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.headerDescriptionShareQRright {
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.clickableSum {
+    width: 100%;
+}
+
+.horizontalScorecardWrapper {
+    width: 100%;
+}
+
+#inputBox {
+    padding: 5px 5px;
+    margin: 5px 0px;
+}
+
+#total,
+#total2,
+#total3,
+#total4,
+#total5,
+#total6,
+#total7,
+#total8 {
+    padding: 5px 1px;
+    margin: 5px 0px;
+}
+
+.scorecardLogoGrey {
+    /* box-shadow: 1px 1px 20px #000000; */
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px auto 10px auto;
+    background-color: #1d6b93;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.flexlinkdisplay {
+    display: flex;
+}
+
+.horizontalScorecard {
+    border-radius: 10px;
+    background-color: #1d6b93;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontalScorecardWrapper {
+    width: 100%;
+    border-color: chartreuse;
+}
+
+.horizontalScorecardbox {
+    width: 8%;
+    align-items: left;
+    height: 23px;
+}
+
+.horizontalScorecardboxDetails {
+    background-color: #1d6b93;
+    align-items: left;
+    width: 100%;
+    display: flex;
+    padding: 0px 0px;
+    font-size: 12px;
+    color: white;
+}
+
+.horizontalScorecardboxName {
+    width: 20%;
+}
+
+.scorecardWrapperBox {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 185px;
+}
+
+.nameMargin {
+    margin-left:5px;
+}
+
+.horizontalInput {
+    width: 100%;
+    /* border-radius: 7px; */
+    font-size: 12px;
+}
+
+.accountprofile {
+    background-color: grey;
+    width: 80%;
+}
+
+.scorecardlinkWrapper {
+    width: 220px;
+    height: 250px;
+}
+
+.scorecardlink {
+    background-color: #2274A5;
+    width: 220px;
+    height: 250px;
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 6px #000000;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.scorecardlink:hover {
+    background-color: grey;
+}
+
+.imageOfScorecardsScreenSave {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px;
+    width: 150px;
+}
+
+.fontcolorwhite {
+    color: white;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.boxText {
+    margin: 70px 20%;
+    text-align: center;
+}
+
+.DeleteAccountDiv {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.aTagButtonLogOut {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+.footerLink {
+    color: blue;
+    text-decoration: underline;
+    float: none;
+    margin: 10px;
+    align-items: center;
+}
+.emailLinkBlue {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.paymentLink {
+    color: blue;
+    text-decoration: underline;
+    float: none;
+    margin: 0 10px 0 0;
+    align-items: center;
+}
+
+.webLinkscorecard {
+    color: lightblue;
+    text-decoration: underline;
+    float: none;
+}
+
+@media only screen and (device-width: 768px),
+only screen and (min-width: 768px) {
+
+    .boxText {
+        margin: 130px 20%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .box1 {
+        height: 300px;
+    }
+
+    .box2 {
+        height: 300px;
+    }
+
+    .box3 {
+        height: 300px;
+    }
+
+    .box4 {
+        height: 300px;
+    }
+
+    .box5 {
+        height: 300px;
+    }
+
+    .box6 {
+        height: 300px;
+    }
+
+    .box7 {
+        height: 300px;
+    }
+
+    .box8 {
+        height: 300px;
+    }
+
+    .box9 {
+        height: 300px;
+    }
+
+    .box10 {
+        background-color: white;
+        width: 50%;
+        height: 300px;
+    }
+
+    /* end of @media mobile width */
+}
