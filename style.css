@@ -1398,8 +1398,9 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    width: auto;
-    height: 1000px;
+    width: 35%;
+    height: 30%;
+    margin: 0px 35%;
 
 }
 
