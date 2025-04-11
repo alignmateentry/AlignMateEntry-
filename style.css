@@ -1393,6 +1393,16 @@ a {
     max-width: 650px;
 }
 
+.secondImage {
+    background-image: url(IMG_2246.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: auto;
+    height: 1000px;
+
+}
+
 .footer {
     display: block;
     /* height:220px; */
