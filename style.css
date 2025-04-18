@@ -530,8 +530,8 @@ input[type=password] {
     /* margin-bottom: 20px; */
     padding-top: 0px;
     /* height: auto; */
-    width: 610px;
-    font-size: 20px;
+
+    font-size:15px;
     font-weight: 600;
     transform: scale(1, 1.3);
     text-align: left;
@@ -1427,7 +1427,7 @@ height: auto;
     padding-right: 110px;
     background-color: rgb(215, 215, 215);
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     font-family: arial;
     width: 65%;
 
@@ -1861,14 +1861,31 @@ height: auto;
     text-decoration: underline;
     float: none;
 }
+.textBox1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+.textBoxSubHeader {
+    font-weight: 400;
+    font-size: 25px;
+}
 
 @media only screen and (device-width: 768px),
-only screen and (min-width: 768px) {
+only screen and (max-width: 768px) {
 
     .boxText {
         margin: 130px 20%;
         text-align: center;
         font-size: 14px;
+    }
+
+    .textBox1 {
+        font-size: 36px;
+    }
+
+    .textBoxSubHeader {
+        font-weight: 400;
+        font-size: 20px;
     }
 
     .box1 {
