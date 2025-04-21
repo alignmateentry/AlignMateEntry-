@@ -1422,9 +1422,9 @@ height: auto;
 }
 
 .textBox65 {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-left: 40px;
-    padding-right: 110px;
+    /* padding-right: 110px; */
     background-color: rgb(215, 215, 215);
     text-align: left;
     font-size: 18px;
