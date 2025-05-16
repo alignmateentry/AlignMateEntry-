@@ -10,13 +10,25 @@
 
 <body>
 
+<!-- Top Nav Bar -->
+<nav
+    style="display: flex; position: fixed; top: 0; width: 100%; max-width: auto; height: 45px; background-color: #fff; box-shadow: 0 0 7px black; border-top: medium solid black; z-index: 1000;">
+    <div class="mainLogo"
+        style=" font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 800; margin: 10px 40px 0 10px;">
+       FitCutBlueprint</div>
+    <div style="margin-left: auto;"></div>
+</nav>
+
     <header class="hero">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
         <h1>How Fast Can You Lose Fat?</h1>
         <p>Take this 60-second quiz to find your best fat loss method for 3, 5, or 7 months.</p>
-        <button onclick="startQuiz()">Take the Test</button>
+        <button style="border-radius: 30px;" onclick="startQuiz()">Take the Test</button>
+        <br><br><br><br><br><br><br><br><br>
     </header>
 
-    <main class="quiz" id="quiz" style="display:none;">
+    <main class="quiz" id="quiz" style="display:none; margin: 80px;">
+    
         <form id="quizForm">
             <div class="question active">
                 <h2>1. What’s your fat loss timeline?</h2>
@@ -34,29 +46,100 @@
                 <label><input type="radio" name="q2" value="Moderate" /> Moderately active</label>
                 <label><input type="radio" name="q2" value="Very" /> Very active</label>
             </div>
+            <div class="question">
+                <h2>3. Have you weight trained consistently in the past 6 months?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Yes</label>
+                <label><input type="radio" name="q2" value="Light" /> No</label>
+            </div>
+            <div class="question">
+                <h2>4: What’s your top priority?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Maximum fat loss</label>
+                <label><input type="radio" name="q2" value="Light" /> Preserve or build muscle</label>
+                <label><input type="radio" name="q2" value="Moderate" /> Just feel healthier</label>
+                <label><input type="radio" name="q2" value="Very" /> Fast visible results</label>
+            </div>
+            <div class="question">
+                <h2>5: What’s your average daily protein intake?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Less than 50g</label>
+                <label><input type="radio" name="q2" value="Light" /> 50–100g</label>
+                <label><input type="radio" name="q2" value="Moderate" /> 100–150g</label>
+                <label><input type="radio" name="q2" value="Very" /> Over 150g</label>
+            </div>
+            <div class="question">
+                <h2>6: Are you comfortable being in a calorie deficit for several months?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Yes</label>
+                <label><input type="radio" name="q2" value="Light" /> No</label>
+                <label><input type="radio" name="q2" value="Moderate" /> Not sure</label>
+            </div>
+            <div class="question">
+                <h2>7: Which best describes your diet right now? </h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> High in carbs and fats</label>
+                <label><input type="radio" name="q2" value="Moderate" /> High protein, balanced</label>
+                <label><input type="radio" name="q2" value="Very" /> Low calorie, inconsistent</label>
+            </div>
+            <div class="question">
+                <h2>8: How many days per week can you realistically work out?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> 1–2 days</label>
+                <label><input type="radio" name="q2" value="Light" /> 3-4 days</label>
+                <label><input type="radio" name="q2" value="Moderate" /> 5+ days</label>
+            </div>
+            <div class="question">
+                <h2>9: Are you more focused on scale weight or body composition (muscle vs fat)?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Scale weight</label>
+                <label><input type="radio" name="q2" value="Light" /> Body composition</label>
+                <label><input type="radio" name="q2" value="Moderate" /> Both</label>
+               
+            </div>
+            <div class="question">
+                <h2>10: Have you tried to lose fat before?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Yes, with success</label>
+                <label><input type="radio" name="q2" value="Light" /> Yes, but I lost muscle</label>
+                <label><input type="radio" name="q2" value="Moderate" /> No, this is new for me</label>
+            </div>
 
-            <!-- You can expand to 10 total questions -->
 
             <div class="buttons">
                 <button type="button" onclick="nextQuestion()">Next</button>
             </div>
         </form>
+    
     </main>
 
     <section class="result" id="result" style="display:none;">
         <h2>Your Result Is Ready!</h2>
         <p>The most effective fat loss method for your timeline is:</p>
-        <h3>Weightlifting in a Calorie Deficit</h3>
-        <p>Unlock your personalized 3-, 5-, or 7-month fat loss blueprint:</p>
+        <h3>---Weightlifting in a Calorie Deficit---</h3>
+        <p>Unlock your fat loss blueprint:</p>
         <ul>
-            <li>Custom training split</li>
+            <li>Training split</li>
             <li>Daily macros and calorie targets</li>
             <li>Recovery and supplement tips</li>
         </ul>
         <a href="https://connect.intuit.com/portal/app/CommerceNetwork/view/scs-v1-77dd7a4d9f93425f9c75521f8a397f2978b3407f834e4e83833649c2e1f3f5c73b72d37f2b7544a4812a7ee97af106db?locale=EN_US">
-        <button onclick="alert('Redirecting to payment...')">Unlock My Plan – $199</button>
+        <button >Unlock My Plan – $199</button>
         </a>
     </section>
+  
+    <!-- Footer -->
+    <footer class="newfooter"
+        style="background-color: #ABA7A7; text-align: center; padding: 30px; font-family: Arial, sans-serif;">
+    
+    
+    
+        <br><br><br>
+        <div>FitCutBlueprint</div>
+        <div>AlignMateEntry LLC </div>
+        <div><a href="mailto:AlignMateEntry@gmail.com">AlignMateEntry@gmail.com</a></div>
+        <div><a href="https://www.AlignMateEntry.com" target="_blank">www.AlignMateEntry.com</a></div>
+        <br />
+        <div>&copy; 2021–2025 AlignMateEntry LLC. All Rights Reserved.</div>
+            <a style="text-decoration: none; font-size: 20px; color: white;"
+                href="https://alignmateentry.github.io/AlignMateEntry-/FitCut.html" target="_blank">
+                <br>
+                <button
+                    style="font-size: 12px; background-color: lightgrey; color: black; border-radius: 30px; text-decoration: none; padding: 10px 20px;">
+                    Back to AlignMateEntry</button> </a>
+    </footer>
 
     <script src="app.js"></script>
 </body>
