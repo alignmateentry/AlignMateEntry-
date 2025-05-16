@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fat Loss Timeline Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>How Fast Can You Lose Fat?</h1>
+        <p>Take this 60-second quiz to find your best fat loss method for 3, 5, or 7 months.</p>
+        <button onclick="startQuiz()">Take the Test</button>
+    </header>
+
+    <main class="quiz" id="quiz" style="display:none;">
+        <form id="quizForm">
+            <div class="question active">
+                <h2>1. What’s your fat loss timeline?</h2>
+                <label><input type="radio" name="q1" value="3" required /> 3 months</label>
+                <label><input type="radio" name="q1" value="5" /> 5 months</label>
+                <label><input type="radio" name="q1" value="7" /> 7 months</label>
+            </div>
+
+            <!-- Add more questions here, following the same structure -->
+
+            <div class="question">
+                <h2>2. What’s your current activity level?</h2>
+                <label><input type="radio" name="q2" value="Sedentary" required /> Sedentary</label>
+                <label><input type="radio" name="q2" value="Light" /> Lightly active</label>
+                <label><input type="radio" name="q2" value="Moderate" /> Moderately active</label>
+                <label><input type="radio" name="q2" value="Very" /> Very active</label>
+            </div>
+
+            <!-- You can expand to 10 total questions -->
+
+            <div class="buttons">
+                <button type="button" onclick="nextQuestion()">Next</button>
+            </div>
+        </form>
+    </main>
+
+    <section class="result" id="result" style="display:none;">
+        <h2>Your Result Is Ready!</h2>
+        <p>The most effective fat loss method for your timeline is:</p>
+        <h3>Weightlifting in a Calorie Deficit</h3>
+        <p>Unlock your personalized 3-, 5-, or 7-month fat loss blueprint:</p>
+        <ul>
+            <li>Custom training split</li>
+            <li>Daily macros and calorie targets</li>
+            <li>Recovery and supplement tips</li>
+        </ul>
+        <a href="https://connect.intuit.com/portal/app/CommerceNetwork/view/scs-v1-77dd7a4d9f93425f9c75521f8a397f2978b3407f834e4e83833649c2e1f3f5c73b72d37f2b7544a4812a7ee97af106db?locale=EN_US">
+        <button onclick="alert('Redirecting to payment...')">Unlock My Plan – $199</button>
+        </a>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
